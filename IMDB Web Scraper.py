@@ -255,7 +255,7 @@ for i in range(0,1200):
       main_url = base_url+next_page_a_tag.attrs['href']
       
     except:
-        export_csv = movies_df.to_csv ('DataNew2.csv', mode = 'a', header = False)
+        export_csv = movies_df.to_csv ('IMDB Movies Data.csv', mode = 'a', header = False)
       
         main_url = base_url+next_page_a_tag.attrs['href']
         
